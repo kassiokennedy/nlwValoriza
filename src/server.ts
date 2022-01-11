@@ -1,5 +1,8 @@
-import express from "express";
 
- const app = express();
+import "reflect-metadata"
+import express, { response } from "express"
 
- app.listen(3000,()=>console.log("Server in running!"))
+const app = express();
+
+// http://localhost:3000
+app.listen(3000,()=>console.log("Server in running!"))
